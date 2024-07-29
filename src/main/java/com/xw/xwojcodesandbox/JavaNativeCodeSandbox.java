@@ -12,6 +12,7 @@ public class JavaNativeCodeSandbox extends JavaCodeSandboxTemplate {
 
     @Override
     public ExecuteCodeResponse executeCode(ExecuteCodeRequest executeCodeRequest) {
+        System.out.println("输出");
         return super.executeCode(executeCodeRequest);
     }
 }
